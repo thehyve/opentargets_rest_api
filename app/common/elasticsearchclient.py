@@ -2181,7 +2181,7 @@ class esQuery():
 
 
 class SearchParams(object):
-    _max_search_result_limit = 10000
+    _max_search_result_limit = 100000
     _default_return_size = 10
     _allowed_groupby = ['gene', 'evidence-type', 'efo']
     _default_pvalue = 1e-3
